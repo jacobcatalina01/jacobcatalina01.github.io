@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+    <title>Jacob's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+</head>
+<body>
+<section class="header">
+    <nav>
+    <a href="index.html"><img src="images/profile.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">RESUME</a></li>
+                
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+<div class="text-box">
+    <h1>Jacob Catalina</h1>
+    <p>Welcome To My Website</p>
+    
+</div>
+
+</section>
+    
+<section class="ABOUT">
+    <h1>About Me</h1>
+    <p>------------------------------------------------------------------------------------------</p>
+    
+    <div class="row">
+        <div class="about-col">
+            <h3>School</h3>
+            <p>I'm currently a sophmore at the University of Michigan in Ann Arbor and I'm loving every minute of it. I am pursuing a BS in Computer Science and am very motivitated to explore everything there is to learn about programming so I can achive my dream to become a proffesional coder at a top-tier company</p>
+        </div>
+        <div class="about-col">
+            <h3>Skills</h3>
+            <p>The programming languages I know are C++, C#, C, Python, JavaScript, R, and Lua. I also have strong experience with HTML and CSS, both of which were used to make this website! Additionally, I had experience at my first proffesional job using WordPress and Flask to make a REST API for the company. Other than that, I have a lot of experience using Git for both school and outside projects, as well as programming engines to create projects on such as Visual Studio, Unity, Unreal Engine, VS Code, and Roblox Studio</p>
+        </div>
+        <div class="about-col">
+            <h3>Hobbies</h3>
+            <p>Outside of school and programming, I'm extremely passionate about lifting weights and getting stronger each and every day. I've even competed in a powerlifting competition this past year. I am also very interested in Drumming, Cooking, and playing Video Games when I'm not working or doing anything school-related</p>
+        </div>
+        
+    </div>
+</section>
+    
+    
+<section class="footer"> 
+    <h4>Created by Jacob Catalina</h4>
+    <p> jacobcatalina01@gmail.com | 248-378-8543</p>
+</section>    
+    
+    
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>    
+    
+    
+</body>
+</html>

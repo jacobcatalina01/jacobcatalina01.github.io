@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+    <title>Jacob's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+<section class="sub2-header">
+    <nav>
+    <a href="index.html"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">RESUME</a></li>
+               
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>Contact</h1>
+    <p></p>
+    <a></a>
+</div>    
+
+</section>
+    
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <img src="images/home.png"
+                width="50"
+                height="50" />
+                <span>
+                    <h5>415 S State Ave</h5>
+                    <p>Ann Arbor, MI</p>
+                </span>
+            </div>
+        <div class="contact-col">
+            <div>
+                <img src="images/phone.png"
+                width="50"
+                height="50" />
+                <span>
+                    <h5>248-378-8543</h5>
+                    <p>Call me for any Inquiries</p>
+                </span>
+            </div>
+        <div class="contact-col">
+            <div>
+                <img src="images/email.png"
+                width="50"
+                height="50" />
+                <span>
+                    <h5>jacobcatalina01@gmail.com</h5>
+                    <p>Email for any questions or inquiries</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <div>
+                <img src="images/linkedin.png"
+                width="50"
+                height="50" />
+                <span>
+                    <a href="https://www.linkedin.com/in/jacob-catalina-9418b722a/" class="linkedin"> Linkedin Profile</a>
+                    <p>Connect with me on Linkedin</p>
+                </span>
+            </div>
+        </div>
+            
+    
+    </div>
+    
+</section>    
+    
+    
+    
+<section class="footer"> 
+    <h4>Created by Jacob Catalina</h4>
+    <p> jacobcatalina01@gmail.com | 248-378-8543</p>
+</section>   
+    
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>    
+    
+    
+</body>
+</html>
